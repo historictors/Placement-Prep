@@ -360,10 +360,8 @@ If this repository helped you:
 * 🐛 Report issues
 * 💡 Suggest improvements
 
-<div ali![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-yellow?style=for-the-badge\&logo=buymeacoffee)gn="center">
-🚀 **Happy Coding & Best Wishes for Your Interviews!** 🎯
+🚀 **Happy Coding & Best Wishes for Your Interviews!** 🎯  
 *"The only way to learn coding is to write a lot of code and solve a lot of problems."*
-</div>
 
 ---
 
@@ -375,9 +373,9 @@ This project is licensed under the **MIT License** — see the `LICENSE` file fo
 
 Made with ❤️ by **Shubham**
 
-![Profile Views](https://profile-counter.glitch.me/Shubham-cyber-prog/count.svg)
+![Profile Views](https://img.shields.io/badge/Profile%20Views-—-blue)
+
 
 </div>
----
 
 
