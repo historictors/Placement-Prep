@@ -21,20 +21,7 @@
 
 ---
 
-## 👨‍💻 About Me
 
-Hi 👋, I'm **Shubham**, a passionate and disciplined developer preparing for **software engineering placements**.
-
-I focus on building **strong fundamentals** and **problem-solving skills** in:
-
-- 🧠 Data Structures & Algorithms (DSA)
-- 🏗️ System Design (LLD & HLD)
-- 💻 Core Computer Science Subjects
-- 🎯 Interview-oriented preparation
-
-This repository reflects my **consistent practice, learning roadmap, and real interview preparation strategy**.
-
----
 
 ## 📂 Repository Overview
 
