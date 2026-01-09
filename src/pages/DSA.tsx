@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Search, Filter, BookOpen, CheckCircle, Clock, Star } from "lucide-react";
 import Loader from "@/components/Loader";
+import ProblemSolver from "@/components/ProblemSolver";
 
 const topics = [
   { id: 1, name: "Arrays", count: 80, solved: 45 },
@@ -32,9 +33,18 @@ const difficultyColors = {
 const DSA = () => {
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [selectedProblem, setSelectedProblem] = useState<typeof problems[0] | null>(null);
 
   return (
     <div className="space-y-6">
+      {/* Problem Solver Modal */}
+      {selectedProblem && (
+        <ProblemSolver
+          problem={selectedProblem}
+          onClose={() => setSelectedProblem(null)}
+        />
+      )}
+
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
@@ -96,6 +106,7 @@ const DSA = () => {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3 + index * 0.05 }}
+              onClick={() => setSelectedProblem(problem)}
               className="flex items-center gap-4 p-4 hover:bg-muted/30 transition-colors cursor-pointer"
             >
               <div className="w-8 h-8 rounded-lg bg-muted flex items-center justify-center">
